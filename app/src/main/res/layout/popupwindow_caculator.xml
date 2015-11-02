@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/seed_grey"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dimens_dp_7"
+    android:paddingLeft="@dimen/dimens_dp_5"
+    android:paddingRight="@dimen/dimens_dp_5"
+    android:paddingTop="@dimen/dimens_dp_3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="1.0"
+            android:layout_marginBottom="@dimen/dimens_dp_3">
+
+            <Button
+                android:id="@+id/caculator_btn7"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="7"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_btn8"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="8"
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dimens_dp_3">
+
+            <Button
+                android:id="@+id/caculator_btn4"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="4"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_btn5"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="5"
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dimens_dp_3">
+
+            <Button
+                android:id="@+id/caculator_btn1"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="1"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_btn2"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="2"
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/caculator_btn0"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="0"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_point_btn"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="."
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="@dimen/dimens_dp_3">
+
+            <Button
+                android:id="@+id/caculator_btn9"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="9"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_delete"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="Del"
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimens_dp_3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/caculator_btn6"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="6"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_add_btn"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="+"
+                android:textSize="@dimen/dimens_sp_20" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimens_dp_3"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/caculator_btn3"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_marginRight="@dimen/dimens_dp_3"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="3"
+                android:textSize="@dimen/dimens_sp_20" />
+
+            <Button
+                android:id="@+id/caculator_reduce_btn"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_weight="1.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:text="-"
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/caculator_result_btn"
+                android:layout_width="@dimen/dimens_dp_0"
+                android:layout_height="@dimen/dimens_dp_40"
+                android:layout_weight="2.0"
+                android:textColor="@color/seed_black"
+                android:background="@drawable/selector_keyboad_btn"
+                android:paddingLeft="@dimen/dimens_dp_3"
+                android:text="="
+                android:textSize="@dimen/dimens_sp_20" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

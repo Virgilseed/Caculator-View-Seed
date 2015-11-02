@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+        <dimen name="dimens_dp_0">1dp</dimen>
+        <dimen name="dimens_dp_1">1dp</dimen>
+        <dimen name="dimens_dp_2">2dp</dimen>
+        <dimen name="dimens_dp_3">3dp</dimen>
+        <dimen name="dimens_dp_4_5">4.5dp</dimen>
+        <dimen name="dimens_dp_5">5dp</dimen>
+        <dimen name="dimens_dp_7">7dp</dimen>
+        <dimen name="dimens_dp_8">8dp</dimen>
+        <dimen name="dimens_dp_10">10dp</dimen>
+        <dimen name="dimens_dp_15">15dp</dimen>
+        <dimen name="dimens_dp_13">13dp</dimen>
+        <dimen name="dimens_dp_12">12dp</dimen>
+        <dimen name="dimens_dp_20">20dp</dimen>
+        <dimen name="dimens_dp_25">25dp</dimen>
+        <dimen name="dimens_dp_27">27dp</dimen>
+        <dimen name="dimens_dp_30">30dp</dimen>
+        <dimen name="dimens_dp_32">32dp</dimen>
+        <dimen name="dimens_dp_40">40dp</dimen>
+        <dimen name="dimens_dp_45">45dp</dimen>
+        <dimen name="dimens_dp_48">48dp</dimen>
+        <dimen name="margin_large">20dp</dimen>
+        <dimen name="dimens_dp_55">55dp</dimen>
+        <dimen name="dimens_dp_65">65dp</dimen>
+        <dimen name="dimens_dp_75">75dp</dimen>
+        <dimen name="dimens_dp_80">80dp</dimen>
+        <dimen name="dimens_dp_120">120dp</dimen>
+        <dimen name="dimens_dp_140">140dp</dimen>
+        <dimen name="dimens_dp_200">200dp</dimen>
+        <dimen name="dimens_dp_300">300dp</dimen>
+        <dimen name="dimens_dp_600">600dp</dimen>
+        <dimen name="dimens_dp_350">350dp</dimen>
+
+        <dimen name="dimens_sp_16">16sp</dimen>
+        <dimen name="dimens_sp_15">15sp</dimen>
+        <dimen name="dimens_sp_14">14sp</dimen>
+        <dimen name="dimens_sp_13">13sp</dimen>
+        <dimen name="dimens_sp_12">12sp</dimen>
+        <dimen name="dimens_sp_11">11sp</dimen>
+        <dimen name="dimens_sp_10">10sp</dimen>
+        <dimen name="dimens_sp_9">9sp</dimen>
+        <dimen name="dimens_sp_20">20sp</dimen>
+        <dimen name="text_xmedium">10sp</dimen>
+        <dimen name="dimens_sp_17">17sp</dimen>
+        <dimen name="dimens_sp_19">19sp</dimen>
+        <dimen name="dimens_sp_23">23sp</dimen>
+</resources>
+

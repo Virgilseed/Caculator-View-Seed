@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed_zhi_bg">#f7f7f7</color>
+
+    <color name="seed_zhi_transparent">#00000000</color>
+
+    <color name="seed_zhi_alpha">#00FFFFFF</color>
+
+    <color name="seed_zhi_white">#ffffff</color>
+
+    <color name="seed_orange">#e84019</color>
+    <color name="seed_white">#ffffffff</color>
+    <color name="seed_black">#ff000000</color>
+    <color name="seed_green">#ff59b36b</color>
+    <color name="seed_blue">#ff059fd3</color>
+    <color name="seed_grey">#CDCDCD</color>
+    <color name="seed_red">#ffff0033</color>
+    <color name="seed_light_grey">#ffEAEAEA</color>
+    <color name="seed_alpha_black">#3d000000</color>
+    <color name="seed_alpha_black_more">#6d000000</color>
+
+</resources>

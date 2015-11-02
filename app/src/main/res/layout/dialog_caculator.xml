@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/caculator_dialog_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/seed_grey"
+        android:layout_above="@+id/dialog_caculator_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimens_dp_30"
+            android:orientation="vertical"
+            android:background="@color/seed_white"
+            android:layout_marginLeft="@dimen/dimens_dp_5"
+            android:layout_marginRight="@dimen/dimens_dp_5"
+            android:layout_marginTop="@dimen/dimens_dp_3">
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.seed.caculator.CaculatorLayout
+        android:id="@+id/dialog_caculator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+    </com.seed.caculator.CaculatorLayout>
+</RelativeLayout>

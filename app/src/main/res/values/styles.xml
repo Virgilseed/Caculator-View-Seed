@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <!-- 计算器对话框样式 -->
+    <style name="EcDialogStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowBackground">@color/seed_zhi_alpha</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--淡入淡出 -->
+    <style name="pullToAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_anim_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_anim_out</item>
+    </style>
+
+</resources>
